@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+  background: blue;
+  height: 200px;
+  padding: 10px;
+}
+
+body {
+  background: yellow;
+}
+.container {
+  padding: 5px;
+}
+.container textarea {
+  margin-top: 10px;
+  height: 70px;
+  width: 200px;
+  border: 2px solid black;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+}
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+}
